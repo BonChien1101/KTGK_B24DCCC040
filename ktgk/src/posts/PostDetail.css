@@ -1,0 +1,16 @@
+/* PostDetail styles */
+
+.post-detail {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.post-detail h1 {
+  margin-bottom: 1rem;
+}
+
+.post-detail p {
+  line-height: 1.6;
+  color: #333;
+}

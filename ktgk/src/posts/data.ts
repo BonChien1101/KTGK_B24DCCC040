@@ -1,0 +1,58 @@
+import { Post } from './types';
+
+export const samplePosts: Post[] = [
+  {
+    id: '1',
+    title: 'Giới thiệu React 18',
+    author: 'Nguyễn Văn A',
+    thumbnailUrl: 'https://i.pinimg.com/736x/bf/ba/4d/bfba4df228e5639b62dce1aa764ecdf0.jpg',
+    content: 'React 18 giới thiệu nhiều tính năng mới như concurrent rendering, automatic batching và nhiều cải tiến khác. Đây là nội dung chi tiết bài viết về React 18...',
+    category: 'Công nghệ',
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: '2',
+    title: 'Kinh nghiệm du lịch Đà Nẵng',
+    author: 'Trần Thị A',
+    thumbnailUrl: 'https://i.pinimg.com/736x/bf/ba/4d/bfba4df228e5639b62dce1aa764ecdf0.jpg',
+    content: 'Đà Nẵng là thành phố đáng sống với nhiều bãi biển đẹp và ẩm thực hấp dẫn. Nội dung chi tiết hướng dẫn du lịch Đà Nẵng...',
+    category: 'Du lịch',
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: '3',
+    title: 'Món phở Hà Nội',
+    author: 'Phạm Văn A',
+    thumbnailUrl: 'https://i.pinimg.com/736x/bf/ba/4d/bfba4df228e5639b62dce1aa764ecdf0.jpg',
+    content: 'Phở là món ăn truyền thống của Việt Nam, đặc biệt là phở Hà Nội với nước dùng thanh và bánh phở mềm. Nội dung chi tiết về món phở...',
+    category: 'Ẩm thực',
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: '4',
+    title: 'Sống tối giản: hướng dẫn cơ bản',
+    author: 'Lê Thị ',
+    thumbnailUrl: 'https://i.pinimg.com/736x/bf/ba/4d/bfba4df228e5639b62dce1aa764ecdf0.jpg',
+    content: 'Lối sống tối giản giúp giảm bớt vật chất và tập trung vào trải nghiệm. Hướng dẫn cơ bản để bắt đầu sống tối giản...',
+    category: 'Đời sống',
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: '5',
+    title: 'Công nghệ Web năm 2025',
+    author: 'Hoàng S',
+    thumbnailUrl: 'https://i.pinimg.com/736x/bf/ba/4d/bfba4df228e5639b62dce1aa764ecdf0.jpg',
+    content: 'Tổng quan về các xu hướng công nghệ web trong năm 2025: WebAssembly, edge computing, serverless và AI trên web...',
+    category: 'Công nghệ',
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: '6',
+    title: 'Quán cà phê ngon ở Sài Gòn',
+    author: 'Nguyễn A',
+    thumbnailUrl: 'https://i.pinimg.com/736x/bf/ba/4d/bfba4df228e5639b62dce1aa764ecdf0.jpg',
+    content: 'Danh sách quán cà phê ngon ở Sài Gòn kèm đánh giá, địa chỉ và hướng dẫn đi lại...',
+    category: 'Du lịch',
+    createdAt: new Date().toISOString(),
+  },
+];
